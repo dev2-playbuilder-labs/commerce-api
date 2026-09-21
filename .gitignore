@@ -55,3 +55,16 @@ yarn-error.log*
 ehthumbs.db
 Thumbs.db
 **/.DS_Store
+
+# ── 여기부터 과정 추가 (commerce-api) ──
+# pnpm 로컬 스토어
+.pnpm-store/
+
+# Medusa 빌드 산출물 (apps/backend/.gitignore 에도 있지만 루트에서도 막습니다)
+**/.medusa/
+
+# TypeScript 증분 빌드 정보
+*.tsbuildinfo
+
+# 로그
+*.log
